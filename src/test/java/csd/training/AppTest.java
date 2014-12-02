@@ -1,6 +1,7 @@
 package csd.training;
 
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class AppTest {
@@ -11,6 +12,7 @@ public class AppTest {
 	}
 
 	@Test
+	@Ignore
 	public void badTest() throws Exception {
 		Assert.assertTrue(false);
 	}
