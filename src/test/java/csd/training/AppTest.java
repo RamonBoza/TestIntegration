@@ -9,4 +9,9 @@ public class AppTest {
 	public void testName() throws Exception {
 		Assert.assertTrue(true);
 	}
+
+	@Test
+	public void badTest() throws Exception {
+		Assert.assertTrue(false);
+	}
 }
